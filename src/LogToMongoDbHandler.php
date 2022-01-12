@@ -60,14 +60,10 @@ class LogToMongoDbHandler extends AbstractProcessingHandler
     protected function write(array $record): void
     {
         if (!empty($record)) {
-            try {
-                $log = new $this->mongoDbModel($this->connection, $this->collection);
-                $this->fill($log, $record);
-                $this->fillAdditional($log);
-                $log->save();
-            } catch (\Exception $e) {
-                //
-            }
+            $log = new $this->mongoDbModel($this->connection, $this->collection);
+            $this->fill($log, $record);
+            $this->fillAdditional($log);
+            $log->save();
         }
     }
 
