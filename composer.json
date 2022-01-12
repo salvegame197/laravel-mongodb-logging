@@ -18,9 +18,9 @@
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "illuminate/support": "~5.6",
-    "jenssegers/mongodb": "~3.4"
+    "php": ">=8.1",
+    "illuminate/support": "*",
+    "jenssegers/mongodb": "^3.8"
   },
   "autoload": {
     "psr-4": {
