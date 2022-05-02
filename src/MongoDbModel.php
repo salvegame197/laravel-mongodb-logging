@@ -6,7 +6,7 @@
  * Time: 11:24
  */
 
-namespace Nechaienko\MongodbLogging;
+namespace Salvegame197\MongodbLogging;
 
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 

@@ -5,10 +5,12 @@ This package gives opportunity **logging to mongodb** with custom
 
 Package [jenssegers/laravel-mongodb](https://github.com/jenssegers/laravel-mongodb) is required
 
+##UPDATED LARAVEL 8
+
 Installation
 -----------------------------------
 ```
-composer require nechaienko/laravel-mongodb-logging
+composer require salvegame197/laravel-mongodb-logging
 ```
 Configuration
 -----------------------------------

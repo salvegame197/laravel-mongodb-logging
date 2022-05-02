@@ -6,7 +6,7 @@
  * Time: 10:48
  */
 
-namespace Nechaienko\MongodbLogging;
+namespace Salvegame197\MongodbLogging;
 
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;

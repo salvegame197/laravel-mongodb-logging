@@ -6,7 +6,7 @@
  * Time: 10:38
  */
 
-namespace Nechaienko\MongodbLogging;
+namespace Salvegame197\MongodbLogging;
 
 use Illuminate\Support\Facades\DB;
 use Monolog\Logger;
